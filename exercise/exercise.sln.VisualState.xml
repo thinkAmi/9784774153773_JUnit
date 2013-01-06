@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]D:\GitHub\9784774153773_JUnit\exercise\exercise.sln</TopNode>
+  <SelectedNode>[0-1000]D:\GitHub\9784774153773_JUnit\exercise\exercise.sln</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]D:\GitHub\9784774153773_JUnit\exercise\exercise.sln" Expanded="true" />
+    <Node UniqueName="[0-1119]D:\GitHub\9784774153773_JUnit\exercise\test\bin\Debug\test.exe" Expanded="true" />
+    <Node UniqueName="[0-1120]test" Expanded="true" />
+    <Node UniqueName="[0-1123]test.ch18" Expanded="true" />
+    <Node UniqueName="[0-1124]test.ch18.ex01" Expanded="true" />
+    <Node UniqueName="[0-1128]test.ch18.ex02" Expanded="true" />
+    <Node UniqueName="[0-1138]test.ch18.ex03" Expanded="true" />
+    <Node UniqueName="[0-1126]test.ch18.ex04" Expanded="true" />
+    <Node UniqueName="[0-1133]test.ch18.ex05" Expanded="true" />
+    <Node UniqueName="[0-1125]test.ch18.ex06" Expanded="true" />
+    <Node UniqueName="[0-1121]test.ch19" Expanded="true" />
+    <Node UniqueName="[0-1130]test.ch19.ex01" Expanded="true" />
+    <Node UniqueName="[0-1127]test.ch19.ex02" Expanded="true" />
+    <Node UniqueName="[0-1122]test.ch19.ex03" Expanded="true" />
+    <Node UniqueName="[0-1136]test.ch19.ex04" Expanded="true" />
+    <Node UniqueName="[0-1137]test.ch19.ex05" Expanded="true" />
+    <Node UniqueName="[0-1129]test.ch19.ex06" Expanded="true" />
+    <Node UniqueName="[0-1131]test.ch20" Expanded="true" />
+    <Node UniqueName="[0-1132]test.ch20.ex01" Expanded="true" />
+    <Node UniqueName="[0-1135]test.ch20.ex02" Expanded="true" />
+    <Node UniqueName="[0-1134]test.ch20.ex04" Expanded="true" />
+  </Nodes>
+</VisualState>

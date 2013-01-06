@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\dropboxs\Dropbox\0_JUnit_ConsoleApplication1\JUnitBook\exercise\test\test.csproj" total="77" errors="0" failures="0" not-run="0" inconclusive="12" ignored="0" skipped="0" invalid="0" date="2013-01-06" time="17:03:12">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="SK-THINK" user="sk" user-domain="sk-THINK" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Project" name="D:\dropboxs\Dropbox\0_JUnit_ConsoleApplication1\JUnitBook\exercise\test\test.csproj" executed="True" result="Success" success="True" time="1.910" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\dropboxs\Dropbox\0_JUnit_ConsoleApplication1\JUnitBook\exercise\test\bin\Debug\test.exe" executed="True" result="Success" success="True" time="1.887" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="test" executed="True" result="Success" success="True" time="1.886" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="ch18" executed="True" result="Success" success="True" time="0.418" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="ex01" executed="True" result="Success" success="True" time="0.280" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="StringUtilsTest+ラムダ式を使うメソッド" executed="True" result="Success" success="True" time="0.265" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex01.StringUtilsTest+ラムダ式を使うメソッド.ToSnakeCaseはスネークケースを返す_aaaの場合" executed="True" result="Success" success="True" time="0.203" asserts="1" />
+                          <test-case name="test.ch18.ex01.StringUtilsTest+ラムダ式を使うメソッド.ToSnakeCaseはスネークケースを返す_HelloWorldの場合" executed="True" result="Success" success="True" time="0.037" asserts="1" />
+                          <test-case name="test.ch18.ex01.StringUtilsTest+ラムダ式を使うメソッド.ToSnakeCaseはスネークケースを返す_practiceJunitの場合" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="StringUtilsTest+ラムダ式を使わないメソッド" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex01.StringUtilsTest+ラムダ式を使わないメソッド.ToSnakeCaseWithoutLambdaはスネークケースを返す_aaaの場合" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="test.ch18.ex01.StringUtilsTest+ラムダ式を使わないメソッド.ToSnakeCaseWithoutLambdaはスネークケースを返す_HelloWorldの場合" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="test.ch18.ex01.StringUtilsTest+ラムダ式を使わないメソッド.ToSnakeCaseWithoutLambdaはスネークケースを返す_practiceJunitの場合" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex02" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="CalculatorTest" executed="True" result="Success" success="True" time="0.012" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex02.CalculatorTest.Divideの第2引数に0を指定すると例外が発生する" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex03" executed="True" result="Success" success="True" time="0.023" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="CounterTest+incrementが1回実行された場合" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex03.CounterTest+incrementが1回実行された場合.incrementで2が取得できる" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CounterTest+incrementが50回実行された場合" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex03.CounterTest+incrementが50回実行された場合.incrementで51が取得できる" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CounterTest+初期状態の場合" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex03.CounterTest+初期状態の場合.incrementで1が取得できる" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex04" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="NumberUtilsTest" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex04.NumberUtilsTest.IsEvenに10でTrueを返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="test.ch18.ex04.NumberUtilsTest.IsEvenに7でFalseを返す" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex05" executed="True" result="Success" success="True" time="0.036" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="ItemStockTest+bookが1回追加されている場合" executed="True" result="Success" success="True" time="0.028" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex05.ItemStockTest+bookが1回追加されている場合.addでbikeを追加するとGetNumでbookとbikeは1を返す" executed="True" result="Success" success="True" time="0.019" asserts="2" />
+                          <test-case name="test.ch18.ex05.ItemStockTest+bookが1回追加されている場合.addでbookを追加するとGetNumで2を返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="test.ch18.ex05.ItemStockTest+bookが1回追加されている場合.GetNumはbookで1を返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ItemStockTest+初期状態の場合" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex05.ItemStockTest+初期状態の場合.Addでbookを追加するとGetNumで1を返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="test.ch18.ex05.ItemStockTest+初期状態の場合.GetNumはbookで0を返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex06" executed="True" result="Success" success="True" time="0.030" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="BackgroundTaskTest+TaskとCountdownEventを使う場合" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex06.BackgroundTaskTest+TaskとCountdownEventを使う場合.Invokeで別タスクが実行される" executed="True" result="Success" success="True" time="0.013" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="BackgroundTaskTest+TaskとWaitAllをつかう場合" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex06.BackgroundTaskTest+TaskとWaitAllをつかう場合.Invokeで別タスクで実行される" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="BackgroundTaskTest+ThreadとCountdownEventを使う場合" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                        <results>
+                          <test-case name="test.ch18.ex06.BackgroundTaskTest+ThreadとCountdownEventを使う場合.Invokeで別スレッドで実行される" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="ch19" executed="True" result="Success" success="True" time="0.262" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="ex01" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="FizzBuzzTest" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                        <results>
+                          <test-case name="test.ch19.ex01.FizzBuzzTest.CreateFizzBuzzで16まで取得できる" executed="True" result="Success" success="True" time="0.003" asserts="17" />
+                          <test-case name="test.ch19.ex01.FizzBuzzTest.CreateFizzBuzzで6まで取得できる" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex02" executed="True" result="Success" success="True" time="0.018" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="EmployeeTest+カスタムConstraint版" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="test.ch19.ex02.EmployeeTest+カスタムConstraint版.LoadでEmployeeの一覧を取得できる" executed="True" result="Success" success="True" time="0.007" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="EmployeeTest+フィールドごとのアサーション版" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                        <results>
+                          <test-case name="test.ch19.ex02.EmployeeTest+フィールドごとのアサーション版.LoadでEmployeeの一覧を取得できる" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex03" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="MultiLineStringTest" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                        <results>
+                          <test-case name="test.ch19.ex03.MultiLineStringTest.Joinで文字列が連結される" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex04" executed="True" result="Success" success="True" time="0.084" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="RangeTest+DetapointsとTheoryを使ったテスト+Rangeが0から10_5まで+かつ範囲外の場合" executed="True" result="Success" success="True" time="0.011" asserts="0">
+                        <results>
+                          <test-suite type="Theory" name="Containsはfalseを返す" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                            <results>
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeが0から10_5まで+かつ範囲外の場合.Containsはfalseを返す(-0.1d)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeが0から10_5まで+かつ範囲外の場合.Containsはfalseを返す(10.6d)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RangeTest+DetapointsとTheoryを使ったテスト+Rangeが0から10_5まで+かつ範囲内の場合" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                        <results>
+                          <test-suite type="Theory" name="Containsはfalseを返す" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                            <results>
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeが0から10_5まで+かつ範囲内の場合.Containsはfalseを返す(0.0d)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeが0から10_5まで+かつ範囲内の場合.Containsはfalseを返す(10.5d)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RangeTest+DetapointsとTheoryを使ったテスト+Rangeがマイナス5_1から5_1まで+かつ範囲外の場合" executed="True" result="Success" success="True" time="0.008" asserts="0">
+                        <results>
+                          <test-suite type="Theory" name="Containsはfalseを返す" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                            <results>
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeがマイナス5_1から5_1まで+かつ範囲外の場合.Containsはfalseを返す(-5.2d)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeがマイナス5_1から5_1まで+かつ範囲外の場合.Containsはfalseを返す(5.2d)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RangeTest+DetapointsとTheoryを使ったテスト+Rangeがマイナス5_1から5_1まで+かつ範囲内の場合" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                        <results>
+                          <test-suite type="Theory" name="Containsはfalseを返す" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                            <results>
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeがマイナス5_1から5_1まで+かつ範囲内の場合.Containsはfalseを返す(-5.1d)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="test.ch19.ex04.RangeTest+DetapointsとTheoryを使ったテスト+Rangeがマイナス5_1から5_1まで+かつ範囲内の場合.Containsはfalseを返す(5.1d)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="RangeTest+Rangeオブジェクトを使ったテスト" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                        <results>
+                          <test-case name="test.ch19.ex04.RangeTest+Rangeオブジェクトを使ったテスト.Containsのテスト" executed="True" result="Success" success="True" time="0.001" asserts="8" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex05" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="ConsumptionTaxTest" executed="True" result="Success" success="True" time="0.012" asserts="0">
+                        <results>
+                          <test-suite type="Theory" name="Applyで消費税が加算された価格を取得できる" executed="True" result="Success" success="True" time="0.011" asserts="0">
+                            <results>
+                              <test-case name="test.ch19.ex05.ConsumptionTaxTest.Applyで消費税が加算された価格を取得できる(test.ch19.ex05.Fixture)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="test.ch19.ex05.ConsumptionTaxTest.Applyで消費税が加算された価格を取得できる(test.ch19.ex05.Fixture)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex05.ConsumptionTaxTest.Applyで消費税が加算された価格を取得できる(test.ch19.ex05.Fixture)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex05.ConsumptionTaxTest.Applyで消費税が加算された価格を取得できる(test.ch19.ex05.Fixture)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex05.ConsumptionTaxTest.Applyで消費税が加算された価格を取得できる(test.ch19.ex05.Fixture)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex06" executed="True" result="Success" success="True" time="0.096" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="FrameworksTest" executed="True" result="Success" success="True" time="0.095" asserts="0">
+                        <results>
+                          <test-suite type="Theory" name="IsSupportはFalseを返す" executed="True" result="Success" success="True" time="0.051" asserts="0">
+                            <results>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(GlassFish,Oracle)" executed="True" result="Inconclusive" success="False" time="0.015" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(GlassFish,DB2)" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(GlassFish,PostgreSQL)" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(GlassFish,MySQL)" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(Tomcat,Oracle)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(Tomcat,DB2)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(Tomcat,PostgreSQL)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(Tomcat,MySQL)" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(JBoss,Oracle)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(JBoss,DB2)" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(JBoss,PostgreSQL)" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはFalseを返す(JBoss,MySQL)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="Theory" name="IsSupportはTrueを返す" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                            <results>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(GlassFish,Oracle)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(GlassFish,DB2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(GlassFish,PostgreSQL)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(GlassFish,MySQL)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(Tomcat,Oracle)" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(Tomcat,DB2)" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(Tomcat,PostgreSQL)" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(Tomcat,MySQL)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(JBoss,Oracle)" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(JBoss,DB2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(JBoss,PostgreSQL)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="test.ch19.ex06.FrameworksTest.IsSupportはTrueを返す(JBoss,MySQL)" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+                                <reason>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                </reason>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="ch20" executed="True" result="Success" success="True" time="1.171" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="ex01" executed="True" result="Success" success="True" time="0.034" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="MonthlyCalendar3Test" executed="True" result="Success" success="True" time="0.019" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex01.MonthlyCalendar3Test.現在時刻が20120130の場合GetRemainingDaysは1を返す" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+                          <test-case name="test.ch20.ex01.MonthlyCalendar3Test.現在時刻が20120131の場合GetRemainingDaysは0を返す" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="test.ch20.ex01.MonthlyCalendar3Test.現在時刻が20120201の場合GetRemainingDaysは28を返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="MonthlyCalendarTest" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex01.MonthlyCalendarTest.現在時刻が20120130の場合GetRemainingDaysは1を返す" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="test.ch20.ex01.MonthlyCalendarTest.現在時刻が20120131の場合GetRemainingDaysは0を返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="test.ch20.ex01.MonthlyCalendarTest.現在時刻が20120201の場合GetRemainingDaysは28を返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex02" executed="True" result="Success" success="True" time="0.986" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="LogAnalyzerTest+NSubstitute版" executed="True" result="Success" success="True" time="0.493" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex02.LogAnalyzerTest+NSubstitute版.LogLoaderが例外を送出するときAnalyzeExceptionが再送出される" executed="True" result="Success" success="True" time="0.491" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="LogAnalyzerTest+RhinoMocks版" executed="True" result="Success" success="True" time="0.489" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex02.LogAnalyzerTest+RhinoMocks版.LogLoaderが例外を送出するときAnalyzeExceptionが再送出される" executed="True" result="Success" success="True" time="0.488" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="ex04" executed="True" result="Success" success="True" time="0.140" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AuthenticationTest+NSubstitute版+アカウントが存在しない場合" executed="True" result="Success" success="True" time="0.044" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex04.AuthenticationTest+NSubstitute版+アカウントが存在しない場合.Authenticateはnullを返す" executed="True" result="Success" success="True" time="0.034" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AuthenticationTest+NSubstitute版+アカウントが存在しパスワードが一致する場合" executed="True" result="Success" success="True" time="0.011" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex04.AuthenticationTest+NSubstitute版+アカウントが存在しパスワードが一致する場合.Authenticateはaccountを返す" executed="True" result="Success" success="True" time="0.009" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AuthenticationTest+NSubstitute版+アカウントが存在するがパスワードが一致しない場合" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex04.AuthenticationTest+NSubstitute版+アカウントが存在するがパスワードが一致しない場合.Authenticateはnullを返す" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AuthenticationTest+RhinoMocks版+アカウントが存在しない場合" executed="True" result="Success" success="True" time="0.050" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex04.AuthenticationTest+RhinoMocks版+アカウントが存在しない場合.Authenticateはnullを返す" executed="True" result="Success" success="True" time="0.049" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AuthenticationTest+RhinoMocks版+アカウントが存在しパスワードが一致する場合" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex04.AuthenticationTest+RhinoMocks版+アカウントが存在しパスワードが一致する場合.Authenticateはaccountを返す" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="AuthenticationTest+RhinoMocks版+アカウントが存在するがパスワードが一致しない場合" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                        <results>
+                          <test-case name="test.ch20.ex04.AuthenticationTest+RhinoMocks版+アカウントが存在するがパスワードが一致しない場合.Authenticateはnullを返す" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
